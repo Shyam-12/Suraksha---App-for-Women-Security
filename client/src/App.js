@@ -1,4 +1,4 @@
-import { Navbar, Footer, Front Awareness, Laws } from './components/import';
+import { Navbar, About, Front, Awareness, Laws } from './components/import';
 
 const App = () => {
   return (
@@ -6,10 +6,10 @@ const App = () => {
        <div>
           <Navbar />
           <Front />
+          <About />
        </div>
-    <Laws />
+      <Laws />
       <Awareness />
-        <Footer />
      </div>
   );
 }
